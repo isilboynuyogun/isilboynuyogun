@@ -1,0 +1,24 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+Dizinin en başında bulunan node için root denir. Bu dizinin root nodeu 7'dir.
+root.left=5
+root.right=8
+root.left.left=1
+root.left.right=6
+root.left.left.left=0
+root.left.left.right=3
+root.left.left.right.left=2
+root.left.left.right.right=4
+root.right.right=9
+
+         7
+       /   \
+       5   8
+      / \    \
+      1   6    9
+     /  \
+    0    3
+        /  \
+        2   4
+        
+        
+        www.patika.dev
